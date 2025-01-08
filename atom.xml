@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>一二</title>
+  <icon>https://onetwo16.github.io/icon.png</icon>
+  <subtitle>随便逛逛，闲书读读。</subtitle>
+  <link href="https://onetwo16.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://onetwo16.github.io/"/>
+  <updated>2025-01-01T06:37:07.788Z</updated>
+  <id>https://onetwo16.github.io/</id>
+  
+  <author>
+    <name>一二</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想看烟花</title>
+    <link href="https://onetwo16.github.io/2025/01/01/%E6%83%B3%E7%9C%8B%E7%83%9F%E8%8A%B1/"/>
+    <id>https://onetwo16.github.io/2025/01/01/%E6%83%B3%E7%9C%8B%E7%83%9F%E8%8A%B1/</id>
+    <published>2024-12-31T16:00:00.000Z</published>
+    <updated>2025-01-01T06:37:07.788Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;也说不上来为什么，在一个星期前计划怎么跨年的时候，就一直惦记着一场烟花。&lt;/p&gt;
+&lt;p&gt;其实我也仔细想过，对烟花的惦记是和其他事情联系在一起的，一件是清明上河园看过的打铁花，一件是22年底跨年时在滇池边上见到的半小时烟花。但联系这些事情的也不是火花本身，是关于失去的情绪。这</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://onetwo16.github.io/2024/12/27/hello-world/"/>
+    <id>https://onetwo16.github.io/2024/12/27/hello-world/</id>
+    <published>2024-12-27T08:07:33.151Z</published>
+    <updated>2024-12-27T08:07:33.153Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
