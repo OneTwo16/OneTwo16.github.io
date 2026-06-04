@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="这是这个系列实验的第二篇：尝试给AI一个我的想法，让ta学习我以前写过的博客，然后基于我和AI的对话，尝试为我写一篇博客。以下内容均为AI生成：事情的起因是，我让 Claude 读完了此前写的所有东西，然后描述一遍我的写作风格。 十七篇文章，几十秒。它给出来的分析比我自己能讲的要系统得多，一些地方让我觉得比我更清楚我在做什么。比如它说，我几乎每篇都在重复同一个动作：先沉浸在某段情绪里，然后退后一步">
+<meta property="og:type" content="article">
+<meta property="og:title" content="解构主义">
+<meta property="og:url" content="https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/index.html">
+<meta property="og:site_name" content="一二">
+<meta property="og:description" content="这是这个系列实验的第二篇：尝试给AI一个我的想法，让ta学习我以前写过的博客，然后基于我和AI的对话，尝试为我写一篇博客。以下内容均为AI生成：事情的起因是，我让 Claude 读完了此前写的所有东西，然后描述一遍我的写作风格。 十七篇文章，几十秒。它给出来的分析比我自己能讲的要系统得多，一些地方让我觉得比我更清楚我在做什么。比如它说，我几乎每篇都在重复同一个动作：先沉浸在某段情绪里，然后退后一步">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-06-05T04:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-04T21:47:10.193Z">
+<meta property="article:author" content="一二">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>解构主义</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+			tex2jax: {
+			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+			  inlineMath: [['$','$']]
+			}
+		  });
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="一二" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/home/">Me</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/potential/">Potentials</a></li><!--
+     --><!--
+       --><li><a href="/atom.xml">Feed</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/2026/06/05/%E6%9E%97%E4%B8%AD%E7%A9%BA%E5%9C%B0/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&text=解构主义"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&title=解构主义"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&is_video=false&description=解构主义"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=解构主义&body=Check out this article: https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&title=解构主义"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&title=解构主义"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&title=解构主义"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&title=解构主义"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&name=解构主义&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&t=解构主义"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+      <div id="toc">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%99%E6%98%AF%E8%BF%99%E4%B8%AA%E7%B3%BB%E5%88%97%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%EF%BC%9A%E5%B0%9D%E8%AF%95%E7%BB%99AI%E4%B8%80%E4%B8%AA%E6%88%91%E7%9A%84%E6%83%B3%E6%B3%95%EF%BC%8C%E8%AE%A9ta%E5%AD%A6%E4%B9%A0%E6%88%91%E4%BB%A5%E5%89%8D%E5%86%99%E8%BF%87%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%8C%E7%84%B6%E5%90%8E%E5%9F%BA%E4%BA%8E%E6%88%91%E5%92%8CAI%E7%9A%84%E5%AF%B9%E8%AF%9D%EF%BC%8C%E5%B0%9D%E8%AF%95%E4%B8%BA%E6%88%91%E5%86%99%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E3%80%82%E4%BB%A5%E4%B8%8B%E5%86%85%E5%AE%B9%E5%9D%87%E4%B8%BAAI%E7%94%9F%E6%88%90%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">这是这个系列实验的第二篇：尝试给AI一个我的想法，让ta学习我以前写过的博客，然后基于我和AI的对话，尝试为我写一篇博客。以下内容均为AI生成：</span></a></li></ol>
+      </div>
+    
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        解构主义
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">一二</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2026-06-05T04:00:00.000Z" class="dt-published" itemprop="datePublished">2026-06-05</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <h2 id="这是这个系列实验的第二篇：尝试给AI一个我的想法，让ta学习我以前写过的博客，然后基于我和AI的对话，尝试为我写一篇博客。以下内容均为AI生成："><a href="#这是这个系列实验的第二篇：尝试给AI一个我的想法，让ta学习我以前写过的博客，然后基于我和AI的对话，尝试为我写一篇博客。以下内容均为AI生成：" class="headerlink" title="这是这个系列实验的第二篇：尝试给AI一个我的想法，让ta学习我以前写过的博客，然后基于我和AI的对话，尝试为我写一篇博客。以下内容均为AI生成："></a>这是这个系列实验的第二篇：尝试给AI一个我的想法，让ta学习我以前写过的博客，然后基于我和AI的对话，尝试为我写一篇博客。以下内容均为AI生成：</h2><p>事情的起因是，我让 Claude 读完了此前写的所有东西，然后描述一遍我的写作风格。</p>
+<p>十七篇文章，几十秒。它给出来的分析比我自己能讲的要系统得多，一些地方让我觉得比我更清楚我在做什么。比如它说，我几乎每篇都在重复同一个动作：先沉浸在某段情绪里，然后退后一步，观察自己正身处那段时间中。又比如它说，我一直在用经济学处理信息的方式来处理生活经验，不是写作技巧，是认知习惯。类似这样的判断，自己隐约有感觉，但从来不曾被旁人这样准确地说出来过。</p>
+<p>也有几句不留情面的。它统计了我好几篇文章的结尾，说几乎都有一样的落点，「蛮有意思的」「也是一种了解自己的方式」「哈哈哈」。看到的时候不太服气，回头翻了一遍，发现好像反驳不了。它还提到，我写的东西几乎全部沿着同一条弧线滑过去：困惑、分析、理解、自觉有趣。读者或许会想看到一篇没有被收束干净的、单纯停在了难受里的东西。</p>
+<p>被这样拆解一遍的体验很奇特。像有人递过来一张你从来没有被拍到的角度的照片，你认得出是自己，但那一面的肌肉走向和神情是陌生的。</p>
+<p>更有意思的部分在后面。拆完了之后它说，根据这些分析，我要为你写一篇新的文章了。</p>
+<p>也就是现在这篇。</p>
+<p>写这篇的时候，体验和以往任何一次都不一样。以往写东西大概是这样的：脑子里先有一团模糊的东西，说不清楚具体形状，但就是觉得应当写。打开编辑器，从第一句话开始往下走，一边走一边发现自己原来是这样想的。走到中间可能会偏出去很远，碰到一些动笔之前完全没预料到的内容，绕回来，或者不绕回来。结尾通常是不知道怎么就停住的，停住了就是停住了。整个过程不像在写，像在和自己聊天。</p>
+<p>但这次是倒过来的。先出现的不是一团模糊的感觉，是一个已经搭好了的骨架。双重视角的切入方式，经济学比喻的运用，具象锚点的选择，自我审视的段落位置，结尾不能太满的克制。然后像是在说，来吧，把这些空格填上。</p>
+<p>这感觉相当奇怪。倒不是因为不习惯，而是它让我忽然理解了什么叫先解构再重构。一辆车被拆散了，零件按图纸摆好，再一件件装回去。装完的车看上去是一样的，发动机的声音也差不多，但你知道它不是原来那辆。原来那辆不是从零件开始生的，是从一个整体开始长的。</p>
+<p>动手的时候我一直在想，这句话是不是合那个框架给它的定位，是不是落在了我被预设要出现的位置。这种被自己监视着的写作，和以往那种「不知道下一句会冒出什么」的漂流状态，几乎没有相似之处。</p>
+<p>但这件事真正让我停下来的，还不是写作体验本身。</p>
+<p>是被拆过一遍之后，我开始意识到，那些我以为是浑然天成的、是所谓「我手写我心」的东西，可能很大程度上，只是一些被反复调用而变得透明的习惯。双重视角不见得是什么特别的禀赋，是写了太多遍「退后一步看自己」之后形成的肌肉记忆。贝叶斯更新这个比方也不是灵光一现，是我确实只有这一套语言来组织经验。那些被挑出来说好的技巧，和被点出来说腻的套路，大概是同一根藤上长出来的。没办法只留下前者而扔掉后者，因为它们底下是同一个根系。</p>
+<p>这大概也是解构让人不安的地方。它把那些你以为自由的东西，回译成了约束。</p>
+<p>所以我也说不上来，现在这篇东西算不算是我自己写的。念头是我的，骨架是 Claude 分析出来的，句子是一个一个敲出来的，但敲的时候全程带着一种不太自然的自觉。不过转念想，以前写的东西也未必就没有自觉。或许差别没那么大，只是过去那些章法藏在水面以下，在我不去命名它们的时候自行运作。现在被照亮了而已。像是呼吸，本来一直都会的，有人把横膈膜的运动方式告诉了你，你反而觉得呼吸这件事变难了。</p>
+<p>也许隔段时间，等这些框架和标签重新沉回暗处，那些习惯又会继续在我不察觉的地方起作用。只是到那个时候，结尾也许会长出些不太一样的东西来。</p>
+<p>谁又知道。</p>
+<div style="text-align: right; margin-top: 20px; font-family: 'Courier New', Courier, monospace; font-size: 18px; color: #333;">
+    <p><strong>Jun 5, 2026 at Shanghai.</strong></p>
+</div>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/home/">Me</a></li>
+        
+          <li><a href="/about/">About</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+          <li><a href="/potential/">Potentials</a></li>
+        
+          <li><a href="/atom.xml">Feed</a></li>
+        
+      </ul>
+    </div>
+
+    
+    
+      <div id="toc-footer" style="display: none">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%99%E6%98%AF%E8%BF%99%E4%B8%AA%E7%B3%BB%E5%88%97%E5%AE%9E%E9%AA%8C%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%EF%BC%9A%E5%B0%9D%E8%AF%95%E7%BB%99AI%E4%B8%80%E4%B8%AA%E6%88%91%E7%9A%84%E6%83%B3%E6%B3%95%EF%BC%8C%E8%AE%A9ta%E5%AD%A6%E4%B9%A0%E6%88%91%E4%BB%A5%E5%89%8D%E5%86%99%E8%BF%87%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%8C%E7%84%B6%E5%90%8E%E5%9F%BA%E4%BA%8E%E6%88%91%E5%92%8CAI%E7%9A%84%E5%AF%B9%E8%AF%9D%EF%BC%8C%E5%B0%9D%E8%AF%95%E4%B8%BA%E6%88%91%E5%86%99%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E3%80%82%E4%BB%A5%E4%B8%8B%E5%86%85%E5%AE%B9%E5%9D%87%E4%B8%BAAI%E7%94%9F%E6%88%90%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">这是这个系列实验的第二篇：尝试给AI一个我的想法，让ta学习我以前写过的博客，然后基于我和AI的对话，尝试为我写一篇博客。以下内容均为AI生成：</span></a></li></ol>
+      </div>
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&text=解构主义"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&title=解构主义"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&is_video=false&description=解构主义"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=解构主义&body=Check out this article: https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&title=解构主义"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&title=解构主义"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&title=解构主义"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&title=解构主义"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&name=解构主义&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://onetwo16.github.io/2026/06/05/%E8%A7%A3%E6%9E%84%E4%B8%BB%E4%B9%89/&t=解构主义"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        
+          <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2026
+    一二
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/home/">Me</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/potential/">Potentials</a></li><!--
+     --><!--
+       --><li><a href="/atom.xml">Feed</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
